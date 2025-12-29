@@ -4,7 +4,7 @@ import os
 from github import Github
 from datetime import datetime, timedelta
 
-TOKEN = os.getenv("GITHUB_TOKEN")
+TOKEN = os.getenv("STATISTICS_TOKEN")
 USERNAME = "verbelowski"
 
 g = Github(TOKEN)
